@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: cucumber.TestNgTestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 47.60 s <<< FAILURE! -- in cucumber.TestNgTestRunner
+cucumber.TestNgTestRunner.runScenario["Title of your scenario outline", "Purchase the ordern from E-commerce website."](1) -- Time elapsed: 40.66 s <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at scbseleniumframeworkdesign.stepDefinations.StepDefinationImpl.message_displayed(StepDefinationImpl.java:66)
+	at ✽."Incorrect email or password." message is displayed.(file:///C:/Users/hp/eclipse-workspace/SeleniumFrameworkDesign/src/test/java/cucumber/ErrorValidations.feature:10)
+
