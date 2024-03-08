@@ -30,6 +30,7 @@ import scbseleniumframework.pageobjects.OrderPage;
 import scbseleniumframework.pageobjects.ProductCatalog;
 import scbseleniumframeworkdesign.TestComponenets.BaseTest;
 //Updated in submit order.
+//2nd Updated in submit order.
 public class SubmitOrderTest extends BaseTest
 {
     String productName="ZARA COAT 3";
